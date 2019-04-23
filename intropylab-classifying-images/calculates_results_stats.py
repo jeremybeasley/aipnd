@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/calculates_results_stats.py
 #                                                                             
-# PROGRAMMER:
-# DATE CREATED:                                  
+# PROGRAMMER: Jeremy Beasley
+# DATE CREATED: 20190423                                  
 # REVISED DATE: 
 # PURPOSE: Create a function calculates_results_stats that calculates the 
 #          statistics of the results of the programrun using the classifier's model 
@@ -70,4 +70,31 @@ def calculates_results_stats(results_dic):
     """        
     # Replace None with the results_stats_dic dictionary that you created with 
     # this function 
-    return None
+    results_stats_dic = {}
+
+    # Initialize counts 
+    results_stats_dic["n_images"] = len(results_dic)
+    results_stats_dic["n_dogs_img"]=0
+    results_stats_dic["n_notdogs_img"]=0
+    results_stats_dic["n_correct_dogs"]=0
+    results_stats_dic["n_correct_notdogs"]=0
+    results_stats_dic["n_correct_breed"]=0
+    results_stats_dic["n_match"]=0
+
+
+    # Update statistics by iterating through results_dic 
+    for key,val in results_dic.items(): 
+        if val[3]==1: results_stats_dic["n_dogs_img"]+=1
+        if val[3]==0: results_stats_dic["n_notdogs_img"]+=1
+        if val[3]==1 and val[4]==1: results_stats_dic["n_correct_dogs"]+=1
+        if val[3]==0 and val[4]==0: results_stats_dic["n_correct_notdogs"]+=1
+        if val[2]==1 and val[3]==1: results_stats_dic["n_correct_breed"]+=1
+        if val[2]==1: results_stats_dic["n_match"]+=1
+
+    # Calculate percentages 
+    results_stats_dic["pct_correct_dogs"] = results_stats_dic["n_correct_dogs"]/results_stats_dic["n_dogs_img"]*100
+    results_stats_dic["pct_correct_notdogs"] = results_stats_dic["n_correct_notdogs"]/results_stats_dic["n_notdogs_img"]*100 if results_stats_dic["n_notdogs_img"] != 0 else 0
+    results_stats_dic["pct_correct_breed"] = results_stats_dic["n_correct_breed"]/results_stats_dic["n_dogs_img"]*100
+    results_stats_dic["pct_match"] = results_stats_dic["n_match"]/results_stats_dic["n_images"]*100
+
+    return results_stats_dic
