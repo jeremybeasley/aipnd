@@ -37,12 +37,13 @@ get_pet_labels	get_pet_labels.py	/^def get_pet_labels(image_dir):$/;"	f
 get_pet_labels	get_pet_labels_hints.py	/^def get_pet_labels(image_dir):$/;"	f
 image_classification	test_classifier.py	/^image_classification = classifier(test_image, model)$/;"	v
 imagenet_classes_dict	classifier.py	/^    imagenet_classes_dict = ast.literal_eval(imagenet_classes_file.read())$/;"	v
-listdir	get_pet_labels.py	/^from os import listdir$/;"	i
+listdir	get_pet_labels.py	/^from os import listdir, path$/;"	i
 listdir	get_pet_labels_hints.py	/^from os import listdir$/;"	i
 main	check_images.py	/^def main():$/;"	f
 model	test_classifier.py	/^model = "vgg"$/;"	v
 models	classifier.py	/^import torchvision.models as models$/;"	i
 models	classifier.py	/^models = {'resnet': resnet18, 'alexnet': alexnet, 'vgg': vgg16}$/;"	v
+path	get_pet_labels.py	/^from os import listdir, path$/;"	i
 print_results	check_images.py	/^from print_results import print_results$/;"	i
 print_results	print_results.py	/^def print_results(results_dic, results_stats_dic, model, $/;"	f
 print_results	print_results_hints.py	/^def print_results(results_dic, results_stats_dic, model, $/;"	f
