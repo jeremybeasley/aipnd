@@ -46,8 +46,8 @@ def get_pet_labels(image_dir):
     # read in image files from directory as a list
     filenames = listdir(image_dir)
 
-    # create filename labels
-    filenames_labels = [filename.lower().split("_") for filename in filenames]
+    # create filename labels, and check for filenames that have hidden files (starts with `.`)
+    filenames_labels = [filename.lower().split("_") for filename in filenames if filename.startswith('.') != True]
 
     # create weird data structure where labels are a single element (str) in a list
     filenames_labels_alpha_only = [[" ".join(filter(lambda x: str(x).isalpha(), labels))] for labels in filenames_labels]
