@@ -89,4 +89,4 @@ def adjust_results4_isadog(results_dic, dogfile):
 
         results_dic[key].extend([pet_image_label_dog, classifier_image_label_dog])
 
-    None
+    return None

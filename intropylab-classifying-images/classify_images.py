@@ -70,4 +70,4 @@ def classify_images(images_dir, results_dic, model):
         classifier_label = classifier(path, model).lower().strip()
         match = 1 if val[0] in classifier_label else 0
         results_dic[key].extend([classifier_label, match])
-    None 
+    return None 
