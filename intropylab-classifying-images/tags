@@ -23,7 +23,7 @@ check_classifying_labels_as_dogs	print_functions_for_lab_checks.py	/^def check_c
 check_command_line_arguments	print_functions_for_lab_checks.py	/^def check_command_line_arguments(in_arg):$/;"	f
 check_creating_pet_image_labels	print_functions_for_lab_checks.py	/^def check_creating_pet_image_labels(results_dic):$/;"	f
 classifier	classifier.py	/^def classifier(img_path, model_name):$/;"	f
-classifier	classify_images.py	/^from classifier import classifier $/;"	i
+classifier	classify_images.py	/^from classifier import classifier$/;"	i
 classifier	classify_images_hints.py	/^from classifier import classifier $/;"	i
 classifier	test_classifier.py	/^from classifier import classifier $/;"	i
 classify_images	check_images.py	/^from classify_images import classify_images$/;"	i

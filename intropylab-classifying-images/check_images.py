@@ -76,7 +76,7 @@ def main():
     classify_images(in_arg.dir, results, in_arg.arch)
 
     # Function that checks Results Dictionary using results    
-    check_classifying_images(results)    
+    check_classifying_images(results)
 
     
     # TODO 4: Define adjust_results4_isadog function within the file adjust_results4_isadog.py
@@ -119,12 +119,9 @@ def main():
     
     # TODO 0: Computes overall runtime in seconds & prints it in hh:mm:ss format
     tot_time = end_time - start_time
-    # print("\n** Total Elapsed Runtime:",
-    #       str(int((tot_time/3600)))+":"+str(int((tot_time%3600)/60))+":"
-    #       +str(int((tot_time%3600)%60)) )
     print("\n** Total Elapsed Runtime:",
           str((tot_time//3600))+":"+str((tot_time%3600)//60)+":"
-          +str(int((tot_time%3600)%60)) )
+          +str(int((tot_time%3600)%60)))
     
 
 # Call to main function to run the program

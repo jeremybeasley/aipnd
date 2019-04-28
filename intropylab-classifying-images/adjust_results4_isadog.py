@@ -73,8 +73,8 @@ def adjust_results4_isadog(results_dic, dogfile):
 
     with open(dogfile) as f: 
         # read in a line at a time to process each line 
-        # Use rstrip() to strip off newline characters from each line read from dognames.txt
         for line in f: 
+            # Use rstrip() to strip off newline characters from each line read from dognames.txt
             dogname = line.rstrip()
             # If a dog name already exists in dognames_dic print a Warning statement because you shouldn't find any duplicate dog names in dognames.txt
             if dogname in dognames_dic: 
