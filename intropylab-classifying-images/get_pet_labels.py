@@ -50,7 +50,7 @@ def get_pet_labels(image_dir):
     filenames_labels = [path.splitext(filename)[0] for filename in filenames]
 
     # Create filename labels
-    filenames_labels = [filename.lower().split("_") for filename in filenames]
+    filenames_labels = [filename.lower().split("_") for filename in filenames_labels]
 
     # create weird data structure where labels are a single element (str) in a list
     filenames_labels_alpha_only = [[" ".join(filter(lambda x: str(x).isalpha(), labels))] for labels in filenames_labels]
