@@ -1,0 +1,77 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Image	intropylab-classifying-images/classifier.py	/^from PIL import Image$/;"	i
+Variable	intropylab-classifying-images/classifier.py	/^from torch.autograd import Variable$/;"	i
+__version__	intropylab-classifying-images/classifier.py	/^from torch import __version__$/;"	i
+additionalplot_solution_1	Matplotlib/solutions_biv.py	/^def additionalplot_solution_1():$/;"	f
+additionalplot_solution_2	Matplotlib/solutions_biv.py	/^def additionalplot_solution_2():$/;"	f
+adjust_results4_isadog	intropylab-classifying-images/adjust_results4_isadog.py	/^def adjust_results4_isadog(results_dic, dogfile):$/;"	f
+adjust_results4_isadog	intropylab-classifying-images/adjust_results4_isadog_hints.py	/^def adjust_results4_isadog(results_dic, dogfile):$/;"	f
+adjust_results4_isadog	intropylab-classifying-images/check_images.py	/^from adjust_results4_isadog import adjust_results4_isadog$/;"	i
+alexnet	intropylab-classifying-images/classifier.py	/^alexnet = models.alexnet(pretrained=True)$/;"	v
+argparse	intropylab-classifying-images/get_input_args.py	/^import argparse$/;"	i
+argparse	intropylab-classifying-images/get_input_args_hints.py	/^import argparse$/;"	i
+ast	intropylab-classifying-images/classifier.py	/^import ast$/;"	i
+bar_chart_solution_1	Matplotlib/solutions_univ.py	/^def bar_chart_solution_1():$/;"	f
+bar_chart_solution_2	Matplotlib/solutions_univ.py	/^def bar_chart_solution_2():$/;"	f
+calculates_results_stats	intropylab-classifying-images/calculates_results_stats.py	/^def calculates_results_stats(results_dic):$/;"	f
+calculates_results_stats	intropylab-classifying-images/calculates_results_stats_hints.py	/^def calculates_results_stats(results_dic):$/;"	f
+calculates_results_stats	intropylab-classifying-images/check_images.py	/^from calculates_results_stats import calculates_results_stats$/;"	i
+categorical_solution_1	Matplotlib/solutions_biv.py	/^def categorical_solution_1():$/;"	f
+check_calculating_results	intropylab-classifying-images/print_functions_for_lab_checks.py	/^def check_calculating_results(results_dic, results_stats_dic):$/;"	f
+check_classifying_images	intropylab-classifying-images/print_functions_for_lab_checks.py	/^def check_classifying_images(results_dic):$/;"	f
+check_classifying_labels_as_dogs	intropylab-classifying-images/print_functions_for_lab_checks.py	/^def check_classifying_labels_as_dogs(results_dic):$/;"	f
+check_command_line_arguments	intropylab-classifying-images/print_functions_for_lab_checks.py	/^def check_command_line_arguments(in_arg):$/;"	f
+check_creating_pet_image_labels	intropylab-classifying-images/print_functions_for_lab_checks.py	/^def check_creating_pet_image_labels(results_dic):$/;"	f
+classifier	intropylab-classifying-images/classifier.py	/^def classifier(img_path, model_name):$/;"	f
+classifier	intropylab-classifying-images/classify_images.py	/^from classifier import classifier $/;"	i
+classifier	intropylab-classifying-images/classify_images_hints.py	/^from classifier import classifier $/;"	i
+classifier	intropylab-classifying-images/test_classifier.py	/^from classifier import classifier $/;"	i
+classify_images	intropylab-classifying-images/check_images.py	/^from classify_images import classify_images$/;"	i
+classify_images	intropylab-classifying-images/classify_images.py	/^def classify_images(images_dir, results_dic, model):$/;"	f
+classify_images	intropylab-classifying-images/classify_images_hints.py	/^def classify_images(images_dir, results_dic, model):$/;"	f
+get_input_args	intropylab-classifying-images/check_images.py	/^from get_input_args import get_input_args$/;"	i
+get_input_args	intropylab-classifying-images/get_input_args.py	/^def get_input_args():$/;"	f
+get_input_args	intropylab-classifying-images/get_input_args_hints.py	/^def get_input_args():$/;"	f
+get_pet_labels	intropylab-classifying-images/check_images.py	/^from get_pet_labels import get_pet_labels$/;"	i
+get_pet_labels	intropylab-classifying-images/get_pet_labels.py	/^def get_pet_labels(image_dir):$/;"	f
+get_pet_labels	intropylab-classifying-images/get_pet_labels_hints.py	/^def get_pet_labels(image_dir):$/;"	f
+histogram_solution_1	Matplotlib/solutions_univ.py	/^def histogram_solution_1():$/;"	f
+image_classification	intropylab-classifying-images/test_classifier.py	/^image_classification = classifier(test_image, model)$/;"	v
+imagenet_classes_dict	intropylab-classifying-images/classifier.py	/^    imagenet_classes_dict = ast.literal_eval(imagenet_classes_file.read())$/;"	v
+listdir	intropylab-classifying-images/get_pet_labels.py	/^from os import listdir$/;"	i
+listdir	intropylab-classifying-images/get_pet_labels_hints.py	/^from os import listdir$/;"	i
+main	intropylab-classifying-images/check_images.py	/^def main():$/;"	f
+matplotlib	Matplotlib/solutions_biv.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	Matplotlib/solutions_univ.py	/^import matplotlib.pyplot as plt$/;"	i
+model	intropylab-classifying-images/test_classifier.py	/^model = "vgg"$/;"	v
+models	intropylab-classifying-images/classifier.py	/^import torchvision.models as models$/;"	i
+models	intropylab-classifying-images/classifier.py	/^models = {'resnet': resnet18, 'alexnet': alexnet, 'vgg': vgg16}$/;"	v
+np	Matplotlib/solutions_biv.py	/^import numpy as np$/;"	i
+np	Matplotlib/solutions_univ.py	/^import numpy as np$/;"	i
+pd	Matplotlib/solutions_biv.py	/^import pandas as pd$/;"	i
+pd	Matplotlib/solutions_univ.py	/^import pandas as pd$/;"	i
+plt	Matplotlib/solutions_biv.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	Matplotlib/solutions_univ.py	/^import matplotlib.pyplot as plt$/;"	i
+print_results	intropylab-classifying-images/check_images.py	/^from print_results import print_results$/;"	i
+print_results	intropylab-classifying-images/print_results.py	/^def print_results(results_dic, results_stats_dic, model, $/;"	f
+print_results	intropylab-classifying-images/print_results_hints.py	/^def print_results(results_dic, results_stats_dic, model, $/;"	f
+resnet18	intropylab-classifying-images/classifier.py	/^resnet18 = models.resnet18(pretrained=True)$/;"	v
+sb	Matplotlib/solutions_biv.py	/^import seaborn as sb$/;"	i
+sb	Matplotlib/solutions_univ.py	/^import seaborn as sb$/;"	i
+scales_solution_1	Matplotlib/solutions_univ.py	/^def scales_solution_1():$/;"	f
+scales_solution_2	Matplotlib/solutions_univ.py	/^def scales_solution_2():$/;"	f
+scatterplot_solution_1	Matplotlib/solutions_biv.py	/^def scatterplot_solution_1():$/;"	f
+scatterplot_solution_2	Matplotlib/solutions_biv.py	/^def scatterplot_solution_2():$/;"	f
+sleep	intropylab-classifying-images/check_images.py	/^from time import time, sleep$/;"	i
+test_image	intropylab-classifying-images/test_classifier.py	/^test_image="pet_images\/Collie_03797.jpg"$/;"	v
+time	intropylab-classifying-images/check_images.py	/^from time import time, sleep$/;"	i
+torchvision	intropylab-classifying-images/classifier.py	/^import torchvision.models as models$/;"	i
+torchvision	intropylab-classifying-images/classifier.py	/^import torchvision.transforms as transforms$/;"	i
+transforms	intropylab-classifying-images/classifier.py	/^import torchvision.transforms as transforms$/;"	i
+vgg16	intropylab-classifying-images/classifier.py	/^vgg16 = models.vgg16(pretrained=True)$/;"	v
+violinbox_solution_1	Matplotlib/solutions_biv.py	/^def violinbox_solution_1():$/;"	f
